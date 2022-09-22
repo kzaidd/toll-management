@@ -64,7 +64,7 @@ const App = () => {
           <Route exact path="/">
             <VehicleLogs idb={idb} collectionCreated={collectionCreated}/>
           </Route>
-          <Route exact path="/tolls">
+          <Route path="/tolls">
             <TollList idb={idb}/>
           </Route> 
         </Switch>
